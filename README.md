@@ -16,10 +16,10 @@ Aby uruchomić projekt, potrzebujesz następującego sprzętu i oprogramowania:
   - Przewody połączeniowe
   - Płytka stykowa (opcjonalnie)
   - DFPlayer Mini
-  - Głośnik
+  - Głośnik (zalecany: 3W 8 Ω)
 
 - **Oprogramowanie**:
-  - Raspberry Pi OS
+  - Raspbian OS
   - Python 3
   - Biblioteki: `pyserial`, `RPi.GPIO`, `pygame`
   
@@ -49,17 +49,16 @@ Aby uruchomić projekt, potrzebujesz następującego sprzętu i oprogramowania:
 
 1. **Podłącz elementy**:
     
-    - Podłącz bezpiecznik 3A pomiędzy dodatnim biegunem akumulatorem a dodatnim wejściem przetwornicy.
+    - Podłącz bezpiecznik 3A pomiędzy dodatnim biegunem akumulatora a dodatnim wejściem przetwornicy.
     - Podłącz wyjście przetwornicy do Raspberry Pi.
     - podłącz zapłon do portu ustalonego w pliku konfiguracyjnym.
     - Podłączenie modułu dźwiękowego
       - Podłącz pin VCC DFPlayer Mini do pinu 5V na Raspberry Pi. 
       - Podłącz pin GND DFPlayer Mini do pinu GND na Raspberry Pi.
       - Podłącz głośnik do pinów SPK1 i SPK2 na DFPlayer Mini.
-      - Podłącz pin TX DFPlayer Mini do jednego z pinów GPIO na Raspberry Pi (np. GPIO 17).
-      - Podłącz pin RX DFPlayer Mini do innego pinu GPIO na Raspberry Pi (np. GPIO 27).
-      - Użyj rezystora (np. 1kΩ) pomiędzy pinem RX DFPlayer a pinem GPIO Raspberry Pi, aby zredukować napięcie.
-    - podłącz ujemne wejście do ujemnym biegunem akumulatora.
+      - Podłącz pin TX DFPlayer Mini do jednego z pinów GPIO na Raspberry Pi (np. GPIO 15).
+      - Podłącz pin RX DFPlayer Mini do innego pinu GPIO na Raspberry Pi (np. GPIO 14).
+    - podłącz ujemne wejście do ujemnego bieguna akumulatora.
 
 2. **Uruchomienie projektu**:
 
@@ -71,5 +70,7 @@ Aby uruchomić projekt, potrzebujesz następującego sprzętu i oprogramowania:
 
 ## Linki
 - [SimpleDFPlayerMini-for-RaspberryPi](https://github.com/andreaswatch/SimpleDFPlayerMini-for-RaspberryPi?tab=readme-ov-file)
+- [DFPLayer Mini Doc](https://picaxe.com/docs/spe033.pdf)
+- 
 
 # FAQ
