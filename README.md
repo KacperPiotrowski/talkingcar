@@ -41,9 +41,9 @@ Aby uruchomić projekt, potrzebujesz następującego sprzętu i oprogramowania:
 
 3. **Dodaj projekt do autostartu**:
 
-    - Edytuj plik ``/etc/rc.local``
+    - Edytuj plik `/etc/rc.local`
     ```bash
-    python3 (ścieżka do projektu)/talkingcar.py
+   b python3 (ścieżka do projektu)/talkingcar.py
     ```
 ## Krok 2: Przygotowanie projektu
 
@@ -68,5 +68,8 @@ Aby uruchomić projekt, potrzebujesz następującego sprzętu i oprogramowania:
 ## Testowanie projektu
 
 1. Uruchomienie zapłonu w samochodzie
+
+## Linki
+- [SimpleDFPlayerMini-for-RaspberryPi](https://github.com/andreaswatch/SimpleDFPlayerMini-for-RaspberryPi?tab=readme-ov-file)
 
 # FAQ
